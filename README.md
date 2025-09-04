@@ -6,13 +6,19 @@ This project leverages **vector embeddings**, **Pinecone**, and **LangChain** to
 
 ---
 
+![Chatbot Initial View](asset/01.png)  
+*MedAI Chatbot interface response sample 1*
+
+![Sample Response](asset/02.png)  
+*MedAI Chatbot interface response sample 2*
+
 ## 🔹 Features
 
 * Retrieves medical information from *The Gale Encyclopedia of Medicine*.
 * Embeds text chunks into a **vector database** using Hugging Face embeddings.
 * Uses **Gemini 2.5 Flash LLM** for context-aware responses.
 * Ranks relevant knowledge base results for precise answers.
-* Simple web interface with **Bootstrap**.
+* Simple web interface using **Bootstrap** (template-based, easily customizable).
 * Supports dynamic updates by adding new PDFs to the dataset.
 
 ---
